@@ -1,5 +1,6 @@
 mod days;
 
 fn main() {
-    let _ans = days::day1::answer();
+    let ans = days::day1::answer();
+    println!("{:?}", ans);
 }
